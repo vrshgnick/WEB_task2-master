@@ -1,0 +1,75 @@
+img {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+
+image {
+    transition: width 1s ease 0s;
+}
+
+body {
+    text-align: center;
+    max-width: 65em;
+    padding: 0 10px;
+    margin: 7px auto 10em;
+    background: #000;
+    color: #111;
+    font: 1.2em/1.2 "Fira Code Retina", calibri, sans-serif;
+    font-size-adjust: 0.35;
+    position: relative;
+    box-shadow: 0 0.6em 3em #4B0082;
+}
+
+.pudge {
+    background: linear-gradient(to right, #8C4DC4, #FF69B4, #6A0DAD, #1E90FF);
+    transition: background 0.5s;
+}
+
+.pudge:hover {
+    background: linear-gradient(to right, white, pink, violet, grey);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background: linear-gradient(to right, pink, violet);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #8C4DC4, #FF69B4, #6A0DAD, #1E90FF);
+    color: #fff;
+}
+
+.desc {
+    text-align: center;
+}
+
+.photo {
+    background: left;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.clearCookie {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px;
+    background: linear-gradient(to right, grey, pink);
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
